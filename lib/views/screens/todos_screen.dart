@@ -307,6 +307,10 @@ class _TodosScreenState extends State<TodosScreen> {
 
   todosBody() {
     return ListView.separated(
+      padding: EdgeInsets.only(
+        bottom: 100.h,
+        top: 30.h,
+      ),
         itemBuilder: (context, index) {
           return SizedBox(
             height: 100.h,
